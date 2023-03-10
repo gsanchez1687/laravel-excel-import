@@ -16,3 +16,6 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('frutas','FrutasController@index');
+Route::post('frutas/importar','FrutasController@importar');
