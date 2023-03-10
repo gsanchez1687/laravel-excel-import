@@ -17,5 +17,13 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+//Ejemplo 1
+//Archivo excel de frutas
 Route::get('frutas','FrutasController@index');
 Route::post('frutas/importar','FrutasController@importar');
+
+//Ejemplo 2
+//Archivo Excel de usuarios
+
+//Ejemplo 3
+//Archivo de Factura
